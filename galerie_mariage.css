@@ -1,0 +1,50 @@
+body{
+	background: black;
+}
+#barre{
+	width: 1640px;
+	height: 50px;
+	background: white;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.tete{
+	display: flex;
+	align-items: center;
+}
+#t1{
+	border-right: 5px black solid;
+	width: 340px;
+	text-align: center;
+}
+.image{
+	width: 1330px;
+	height: 685px;
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+
+/*	margin: 0px auto;*/
+	/*overflow: hidden;*/
+}
+.a1{
+	display: flex;
+	width: 1330px;
+	height: 685px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 15px;
+	position: relative;
+}
+#radio{
+	position: absolute;
+	bottom: 0px;
+	right: 45%;
+/*	border: 15px red solid;*/
+	z-index: 5;
+}
+
+.image1{
+	margin-left: -1500px;
+}
